@@ -1725,10 +1725,22 @@ svg#fish {
   }
 
     
-.containerabout, .containercontact, .containereducation, .containerprojects, .containerskills, .containerexperience {
-    margin: 0;
-
+.containerabout {
+    background: rgb(242, 242, 253);
+} 
+} .containerexperience {
+    background: rgba(242, 242, 253, 0.925);
 }
+.containereducation {
+    background: rgba(242, 242, 253, 0.87);
+}.containerprojects {
+    background: rgba(242, 242, 253, 0.76);
+}.containerskills {
+    background: rgba(242, 242, 253, 0.644);
+} .containercontact {
+    background: rgba(242, 242, 253, 0.651);
+
+}  
 #lead-content {
 font-size: 50%;
 width: 100%;
