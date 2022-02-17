@@ -1705,11 +1705,15 @@ svg#fish {
 @media only screen and (max-width: 480px){
    
   html {
-     
+     border:1px solid red;
         zoom: 100%;
-    }
         
-
+    }
+    body {
+        white-space: nowrap;
+    }
+  
+       
   /* Fish Animation */
 #lead-down{
   display: none;
@@ -1720,8 +1724,8 @@ svg#fish {
     margin: 0;
 
 }
-#lead-content {
-    zoom: 70%;
+#leadyconty {
+    zoom: 50%;
   
 }
 #projects h2 {
