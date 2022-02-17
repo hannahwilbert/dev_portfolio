@@ -1756,4 +1756,12 @@ width: 100%;
 font-size: 90%;
 }
 
+.barrel {
+    zoom: 50%;
+}
+.barrel h2 {
+    font-size:20px;
+    position: absolute;
+    left: 10%
+}
 }
