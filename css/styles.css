@@ -1708,9 +1708,27 @@ svg#fish {
      
         zoom: 100%;
     }
-    body {
         
-    }
+  }
+  /* Fish Animation */
+  svg.fish{
+    overflow:visible;
+    zoom: 50%;
+  }
+  
+  @-webkit-keyframes swimmy
+  {
+      0% {margin-left: -80%}
+      90% {margin-left: 70%;}
+      100% {margin-left: 100%;}
+  }
+  
+  @keyframes swimmy
+  {
+      0% {margin-left: -80%}
+      70% {margin-left: 60%;}
+      100% {margin-left: 100%;}
+  }
 
     
 .containerabout, .containercontact, .containereducation, .containerprojects, .containerskills, .containerexperience {
@@ -1724,4 +1742,4 @@ svg#fish {
 #projects h2 {
     transform: scale(.6);
 }
-}
+
