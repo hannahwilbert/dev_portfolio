@@ -1709,7 +1709,7 @@ svg#fish {
         zoom: 100%;
     }
         
-  }
+
   /* Fish Animation */
   svg.fish{
     overflow:visible;
@@ -1743,3 +1743,4 @@ svg#fish {
     transform: scale(.6);
 }
 
+}
