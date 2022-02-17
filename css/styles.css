@@ -1705,18 +1705,23 @@ svg#fish {
 @media only screen and (max-width: 480px){
    
   html {
-     border:1px solid red;
-        zoom: 100%;
-        
+        zoom:100%;
     }
     body {
-        white-space: nowrap;
+        zoom:100%;
+
     }
-  
+    .bg-bubbles {
+        display:none;
+    }
+  .submarine {
+      display:none;
+  }
        
   /* Fish Animation */
 #lead-down{
   display: none;
+  
   }
 
     
@@ -1724,12 +1729,19 @@ svg#fish {
     margin: 0;
 
 }
-#leadyconty {
-    zoom: 50%;
+#lead-content {
+font-size: 50%;
+width: 100%;
   
 }
 #projects h2 {
-    transform: scale(.6);
+   font-size: 50%;
+}
+.w {
+  zoom: 80%;
+}
+#contact h3 {
+font-size: 90%;
 }
 
 }
