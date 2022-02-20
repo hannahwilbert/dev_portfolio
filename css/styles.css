@@ -1339,8 +1339,8 @@ max-width: 85%;
     
 }
 .badge:hover {
-    transform: scale(1.2);
-        
+    transform: scale(1.8);
+    transition:.5s ease all;
     }
 
 
