@@ -998,8 +998,8 @@ top:   150px;
     
 .wingg{
     background-color: #e9de33;
-    height: 30px;
-    width: 17px;
+    height: 40px;
+    width: 27px;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     position: relative;
@@ -1764,3 +1764,10 @@ font-size: 90%;
 }
 }
 
+module.exports = {
+    plugins: [
+        require('cssnano')({
+            preset: 'default',
+        }),
+    ],
+};

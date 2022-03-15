@@ -23,7 +23,9 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
-    "gulp-wait": "0.0.2"
+    "gulp-wait": "0.0.2",
+    "postcss": "^8.4.11",
+    "postcss-cli": "^9.1.0"
   },
   "dependencies": {
     "jquery-appear-original": "^0.6.2"
