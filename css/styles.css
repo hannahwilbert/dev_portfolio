@@ -607,10 +607,20 @@ h2.heading:after {
 #about p {
   color: #74808a;
   margin: 0;
+  font-size: 20px;
   max-width: 100%;
   margin-left: 5%;
   margin: 5% !important;
 }
+
+#experience p {
+ font-size: 18px;
+}
+
+#education p {
+  font-size: 19px;
+}
+
 
 .containerexperience {
   background: rgba(255, 255, 255, 0.87);
@@ -627,6 +637,7 @@ h2.heading:after {
 #experience h2 {
   color: #374054;
 }
+
 #experience-timeline {
   margin: 30px auto 0 auto;
   position: relative;
@@ -774,9 +785,14 @@ h2.heading:after {
   padding: 50px 15px;
   text-align: center;
 }
+
 #projects h2 {
   color: #374054;
   font-size: 100%;
+}
+
+.containerprojects {
+  font-size:20px;
 }
 
 .subcontainer {
