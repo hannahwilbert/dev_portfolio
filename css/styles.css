@@ -620,7 +620,10 @@ h2.heading:after {
 #education p {
   font-size: 19px;
 }
-
+li {
+  font-size: 18px;
+  color: #74808a;
+}
 
 .containerexperience {
   background: rgba(255, 255, 255, 0.87);
