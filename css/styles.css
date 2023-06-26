@@ -1483,7 +1483,7 @@ svg #fish6 {
 	display: block;
 	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .secgal {
@@ -1776,3 +1776,4 @@ footer {
 #recicon {
   width: 100px;
 }
+
