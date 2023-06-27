@@ -436,7 +436,7 @@ h2.heading:after {
 
 #lead-down {
   position: absolute;
-  top: 900px;
+  top: 750px;
   left: 0;
   right: 0;
   width: 100%;
@@ -1776,5 +1776,4 @@ footer {
 #recicon {
   width: 100px;
 }
-
 
